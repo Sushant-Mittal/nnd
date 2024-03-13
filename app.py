@@ -112,5 +112,5 @@ def plot():
     plt.close(fig)  # Prevents plt.show() from blocking
     return plt.figure().to_html()
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     app.run(debug=True)
